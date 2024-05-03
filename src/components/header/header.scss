@@ -1,0 +1,78 @@
+.header{
+    padding: 24px 0;
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 39px;
+    }
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    &__lang{
+        width: 50px;
+        margin-bottom: 15px;
+        color: rgb(0, 0, 0);
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        text-transform: uppercase;
+    }
+    &__search{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+    &__text{
+        width: 126px;
+        padding: 4.5px 0 4.5px 0px;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    &__icon{
+        width: 28px;
+        cursor: pointer;
+    }
+    input::placeholder{
+        color: rgb(8, 9, 10);
+    }
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: Audiowide;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 61px;
+    a{
+        color: rgb(8, 9, 10);
+        cursor: pointer;
+    }
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    &__tel{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        a{
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+.account{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    &__bag, &__heart, &__user{
+        width: 28px;
+        color: rgb(0, 0, 0);
+    }
+
+}
